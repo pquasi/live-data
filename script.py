@@ -2,7 +2,7 @@ import sys
 
 def getJModels():
   data = {}
-  with open('/Users/jmw/todel/nick-stuff/data/jmodeltest2_output/aP6.fas.jmodeltest.console') as f:
+  with open('./data/jmodeltest2_output/aP6.fas.jmodeltest.console') as f:
     lines = f.readlines()
     models = []
     for i, line in enumerate(lines):
@@ -21,7 +21,7 @@ def getJModels():
 
 
 def getMegaModels():
-  with open('/Users/jmw/todel/nick-stuff/data/mega_output/aP6.model_selection_data') as f:
+  with open('./data/mega_output/aP6.model_selection_data') as f:
     lines = f.readlines()
     models = []
     for i, line in enumerate(lines):
